@@ -1,0 +1,119 @@
+.nav{
+    margin:0;
+    font-family:"poppins",sans-serif;
+    box-sizing:border-box;
+    background-color: blanchedalmond;
+}
+.logo{
+    font-weight:bold;
+    font-size:larger;
+    align-content: center;
+}
+.logo:hover {
+    color: red;
+}
+.nav-main{
+    background-color: rgba(red, green, blue, alpha);
+    display: flex;
+    align-content: center;
+    justify-content:space-between;
+    gap: 100px;
+    padding: 0 30px;
+    height: 70px;
+border:solid 2px red ;
+    border-radius: 20px;
+   /*  padding: 200px 20px 30px 40px; */
+   /* margin: 20px 20px 30px 40px ; */
+
+
+}
+.nav{
+    position:sticky;
+    top:0;
+    z-index: 1000;
+}
+.nav-main-ul {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    font-size: large;
+}
+
+.nav-main-ul a:hover{
+    color: red;
+}
+.nav-main-ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-social-ul{
+    display: flex;
+    gap: 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+.image:hover{
+    scale: 1.20;
+}
+.box-1{
+ height: 100px;
+ width: 100px;
+ background-color: red;
+ margin: 20px;
+ /* border: solid blue 10px;
+ border-radius: 10px; */
+
+}
+.hero-section{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(red, green, blue);
+    height: 90vh;
+    width: 100vw;
+    padding-bottom: 100px;
+}
+.hero-section h4{
+    font-size: 50px;
+    background: -webkit-radial-gradient(blue,skyblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.hero-section h1{
+    font-size: 72px;
+color: rgb(153, 189, 26);
+}
+.hero-section2{
+    height: 100vh;
+    z-index: 100;
+}
+.filler{
+    display: flex;
+    height: 100vh;
+    background-color: #6e08e3;
+    font-size: 50px;
+    
+   align-content: start;
+   justify-content: center;
+    
+}
+
+    
+
+/*
+.nav-main{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0px 20px;
+    gap:100px;
+    border-bottom:2px solid;
+    height:60px;
+}
